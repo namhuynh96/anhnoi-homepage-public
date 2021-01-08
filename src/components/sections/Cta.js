@@ -46,16 +46,18 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Ứng dụng đang được chờ cấp duyệt trên:</h3>
+            <h3 className="m-0">
+              Miễn phí 15 ngày dùng thử trên Haravan App Store
+            </h3>
           </div>
           <div className="cta-action">
             <Button
               tag="a"
               color="dark"
               wideMobile
-              href="https://apps.haravan.com/"
+              href="https://apps.haravan.com/products/anhnoi-photo-review-danh-gia-bang-hinh-anh"
             >
-              Haravan App Store
+              Cài đặt
             </Button>
           </div>
         </div>

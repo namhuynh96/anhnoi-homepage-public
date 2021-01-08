@@ -1,8 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
-// import Button from "../elements/Button";
+import Button from "../elements/Button";
 import Image from "../elements/Image";
+import ButtonGroup from "../elements/ButtonGroup";
 
 const propTypes = {
   ...SectionProps.types,
@@ -56,17 +57,28 @@ const Hero = ({
               >
                 Ảnh Nổi cung cấp ứng dụng cho phép khách hàng viết đánh giá cùng
                 với hình ảnh được hiển thị bắt mắt, gây ấn tượng với khách hàng.
+                Hiện ứng dụng đã có sẵn trên Haravan App Store!
               </p>
-              {/* <div className="reveal-from-bottom" data-reveal-delay="600">
-                <Button
-                  tag="a"
-                  color="primary"
-                  wideMobile
-                  href="https://cruip.com/"
-                >
-                  Dùng thử
-                </Button>
-              </div> */}
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <ButtonGroup>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="https://apps.haravan.com/products/anhnoi-photo-review-danh-gia-bang-hinh-anh"
+                  >
+                    Dùng thử
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://anhnoi-dev-shop.myharavan.com/products/ao-thun-anime"
+                  >
+                    Xem shop mẫu
+                  </Button>
+                </ButtonGroup>
+              </div>
             </div>
           </div>
           <div
