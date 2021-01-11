@@ -87,6 +87,25 @@ const Header = ({
           )}
         >
           <Logo />
+          {/* <nav
+            ref={nav}
+            className={classNames("header-nav", isActive && "is-active")}
+          >
+            <div className="header-nav-inner">
+              <ul
+                className={classNames(
+                  "list-reset text-xs",
+                  navPosition && `header-nav-${navPosition}`
+                )}
+              >
+                <li>
+                  <Link to="partner" onClick={closeMenu}>
+                    Đối tác
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav> */}
         </div>
       </div>
     </header>

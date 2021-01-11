@@ -1,0 +1,40 @@
+.Form {
+  margin: 80px auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: rgb(29, 26, 26);
+  padding: 20px;
+  width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+  .Form {
+    width: 80%;
+  }
+}
+
+.FormField {
+  padding: 20px 0;
+}
+
+.Input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.SendButton {
+  text-align: center;
+}
+
+.UrlRef {
+  color: #5658dd;
+}
+
+.Message {
+    margin-top: 20px;
+}
