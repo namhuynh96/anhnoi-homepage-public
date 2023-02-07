@@ -57,7 +57,7 @@ const Hero = ({
               >
                 Ảnh Nổi cung cấp ứng dụng cho phép khách hàng viết đánh giá cùng
                 với hình ảnh được hiển thị bắt mắt, gây ấn tượng với khách hàng.
-                Hiện ứng dụng đã có sẵn trên Haravan App Store!
+                Hiện ứng dụng đã có sẵn trên Haravan App Store và Sapo App Store
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -66,14 +66,25 @@ const Hero = ({
                     color="primary"
                     wideMobile
                     href="https://apps.haravan.com/products/anhnoi-photo-review-danh-gia-bang-hinh-anh"
+                    target="_blank"
                   >
-                    Dùng thử
+                    Cài đặt trên Haravan
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="https://apps.sapo.vn/anhnoi-product-review-danh-gia-san-pham"
+                    target="_blank"
+                  >
+                    Cài đặt trên Sapo
                   </Button>
                   <Button
                     tag="a"
                     color="dark"
                     wideMobile
-                    href="https://anhnoi-dev-shop.myharavan.com/products/ao-thun-anime"
+                    href="https://anhnoi-dev-shop.myharavan.com/products/ao-thun-anime#anhnoiReviews"
+                    target="_blank"
                   >
                     Xem shop mẫu
                   </Button>

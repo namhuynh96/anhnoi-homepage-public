@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
+import ButtonGroup from "../elements/ButtonGroup";
 
 const propTypes = {
   ...SectionProps.types,
@@ -46,19 +47,29 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">
-              Miễn phí 15 ngày dùng thử trên Haravan App Store
-            </h3>
+            <h3 className="m-0">Miễn phí 15 ngày dùng thử</h3>
           </div>
           <div className="cta-action">
-            <Button
-              tag="a"
-              color="dark"
-              wideMobile
-              href="https://apps.haravan.com/products/anhnoi-photo-review-danh-gia-bang-hinh-anh"
-            >
-              Cài đặt
-            </Button>
+            <ButtonGroup>
+              <Button
+                tag="a"
+                color="dark"
+                wideMobile
+                href="https://apps.haravan.com/products/anhnoi-photo-review-danh-gia-bang-hinh-anh"
+                target="_blank"
+              >
+                Cài đặt trên Haravan
+              </Button>
+              <Button
+                tag="a"
+                color="dark"
+                wideMobile
+                href="https://apps.sapo.vn/anhnoi-product-review-danh-gia-san-pham"
+                target="_blank"
+              >
+                Cài đặt trên Sapo
+              </Button>
+            </ButtonGroup>
           </div>
         </div>
       </div>
